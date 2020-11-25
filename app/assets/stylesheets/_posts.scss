@@ -1,3 +1,128 @@
-// Place all the styles related to the posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+.header {
+  background-color: darkcyan;
+  height: 100px;
+  &__content {
+    height: 80px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__main {
+      font-size: 40px;
+      text-decoration: none;
+      font-family: arial black;
+      color: indigo;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.wrapper {
+  height: 1000px;
+  .main {
+    padding: 100px 50px  210px;
+    background-image: image-url('pyramid.jpeg');
+    background-size: cover;
+    background-position: center;
+    .contents {
+      .top {
+        display: flex;
+        justify-content: center;
+        .rag {
+          margin-top: 130px;
+        }
+        &__content {
+          background-color: chocolate;
+          border: 1px solid black;
+          margin: 15px;
+          width: 400px;
+          height: 200px;
+          text-align: center; 
+        }
+        .base {
+          margin-top: 130px;
+        }
+      }
+      .second {
+        display: flex;
+        justify-content: center;
+        &__left {
+          background-color: chocolate;
+          border: 1px solid black;
+          margin: 15px;
+          width: 400px;
+          height: 200px;
+          text-align: center;
+        }
+        &__right {
+          background-color: chocolate;
+          border: 1px solid black;
+          margin: 15px;
+          width: 400px;
+          height: 200px;
+          text-align: center;
+        }
+      }
+      .third {
+        display: flex;
+        justify-content: center;
+        &__left {
+          background-color: chocolate;
+          border: 1px solid black;
+          margin: 15px;
+          width: 400px;
+          height: 200px;
+          text-align: center;
+          
+        }
+        &__center {
+          background-color: chocolate;
+          border: 1px solid black;
+          margin: 15px;
+          width: 400px;
+          height: 200px;
+          text-align: center;
+        }
+        &__right {
+          background-color: chocolate;
+          border: 1px solid black;
+          margin: 15px;
+          width: 400px;
+          height: 200px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+
+
+.footer {
+  background-color: yellowgreen;
+  height: 100px;
+  &__main {
+  height: 80px;
+  padding: 10px 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    .content__appName {
+      font-size: 40px;
+      font-family: arial black;
+      color: indigo;
+      width: 300px;
+    }
+    .content__appExplanation {
+      font-size: 15px;
+      width: 500px;
+      span {
+        font-size: 20px;
+        font-family: arial black;
+        color: indigo;
+      }
+    }
+  }
+}
