@@ -30,14 +30,11 @@
       .top {
         display: flex;
         justify-content: center;
-        .rag {
-          margin-top: 130px;
-        }
         &__content {
           font-size: 25px;
           background-color: chocolate;
           border: 1px solid black;
-          margin: 15px;
+          margin: 15px 15px 15px 120px;
           width: 400px;
           height: 200px;
           text-align: center; 
