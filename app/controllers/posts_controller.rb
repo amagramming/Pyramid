@@ -4,4 +4,8 @@ class PostsController < ApplicationController
     # @posts = post.all
   end
 
+  def edit
+
+  end
+
 end
