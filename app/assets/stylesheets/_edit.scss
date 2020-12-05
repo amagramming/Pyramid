@@ -1,9 +1,27 @@
 .editPage {
   background-color: aquamarine;
-  .second {
-    display: flex;
+  .title {
+    text-align: center;
   }
-  .third {
-    display: flex;
-  }
+  .pyramid {
+    .top {
+      text-align: center;
+    }
+    .second {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__left {
+
+      }
+      &__right {
+        
+      }
+    }
+    .third {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }  
   }
