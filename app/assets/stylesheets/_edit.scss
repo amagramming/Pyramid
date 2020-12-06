@@ -2,15 +2,18 @@
   background-color: aquamarine;
   .title {
     text-align: center;
+    padding-top: 30px;
   }
   .pyramid {
     .top {
       text-align: center;
+      padding-top: 30px;
     }
     .second {
       display: flex;
       align-items: center;
       justify-content: center;
+      padding-top: 30px;
       &__left {
 
       }
@@ -22,6 +25,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 30px 0px;
     }
   }  
   }
