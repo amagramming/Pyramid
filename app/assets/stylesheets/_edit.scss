@@ -1,13 +1,12 @@
 .editPage {
   background-color: aquamarine;
   color: blueviolet;
+  text-align: center;
   .title {
-    text-align: center;
     padding-top: 30px;
   }
   .pyramid {
     .top {
-      text-align: center;
       padding-top: 40px;
     }
     .second {
@@ -34,5 +33,9 @@
         padding-right: 50px;
       }
     }
-  }  
   }
+  .editBtn {
+    text-decoration: none;
+    color: blueviolet;
+  } 
+}
