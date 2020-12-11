@@ -35,7 +35,10 @@
     }
   }
   .editBtn {
+    padding-bottom: 50px;
+    &__text{
     text-decoration: none;
     color: blueviolet;
-  } 
+    } 
+  }
 }
