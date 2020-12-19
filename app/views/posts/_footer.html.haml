@@ -2,6 +2,7 @@
   .footer__main
     = link_to "/", class: "content__appName" do
       Pyramid
-    .content__appExplanation
+    = link_to "/", class: "content__appExplanation" do
       %span Pyramid
-      はあなたの趣味をランキングしたアプリケーションです
+    .content__appExplanation__text
+    はあなたの趣味をランキングしたアプリケーションです
